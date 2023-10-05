@@ -12,20 +12,106 @@
 Nuestro proyecto consiste en crear un contador desde el 0-99 utilizando 2 displays de 7 segmentos y la tecnica de Multiplexacion. Contiene 3 pulsadores con funcionalidades distintas; Uno de ellos Suma el contador, Otro resta y el ultimo resetea el contador a 0. 
 
 ## Función principal
-Esta funcion se encarga de encender y apagar los leds.
+Esta funcion se encarga de encender y apagar los leds que se necesiten para formar el numero que corresponde con el contador en cada caso.
 
-B0, B1, B2, B3 son #define que utilizamos para agregar los leds, asociandolo a pines de la placa arduino.
+a, b, c, d, e, f, g son #define que utilizamos para agregar los leds de los displays, asociandolo a pines de la placa arduino.
 
-(Breve explicación de la función)
-
-~~~ C (lenguaje en el que esta escrito)
-void EncenderBinario(int estado3, int estado2,int estado1,int estado0)
-{
-  digitalWrite(B3,estado3);
-  digitalWrite(B2,estado2);
-  digitalWrite(B1,estado1);
-  digitalWrite(B0,estado0);
-}
+~~~ C++ (lenguaje en el que esta escrito)
+void mostrar_digito(int digit){
+  
+    digitalWrite(a,HIGH);
+    digitalWrite(b,HIGH);
+    digitalWrite(c,HIGH);
+    digitalWrite(d,HIGH);
+    digitalWrite(e,HIGH);
+    digitalWrite(f,HIGH);
+    digitalWrite(g,LOW);
+  
+    switch(digit){
+      
+        case 1:
+            digitalWrite(a,LOW);
+            digitalWrite(b,HIGH);
+            digitalWrite(c,HIGH);
+            digitalWrite(d,LOW);
+            digitalWrite(e,LOW);
+            digitalWrite(f,LOW);
+            digitalWrite(g,LOW);
+            break;
+        case 2:
+            digitalWrite(a,HIGH);
+            digitalWrite(b,HIGH);
+            digitalWrite(c,LOW);
+            digitalWrite(d,HIGH);
+            digitalWrite(e,HIGH);
+            digitalWrite(f,LOW);
+            digitalWrite(g,HIGH);
+            break;
+        case 3:
+            digitalWrite(a,HIGH);
+            digitalWrite(b,HIGH);
+            digitalWrite(c,HIGH);
+            digitalWrite(d,HIGH);
+            digitalWrite(e,LOW);
+            digitalWrite(f,LOW);
+            digitalWrite(g,HIGH);
+            break;
+        case 4:
+            digitalWrite(a,LOW);
+            digitalWrite(b,HIGH);
+            digitalWrite(c,HIGH);
+            digitalWrite(d,LOW);
+            digitalWrite(e,LOW);
+            digitalWrite(f,HIGH);
+            digitalWrite(g,HIGH);
+            break;
+        case 5:
+            digitalWrite(a,HIGH);
+            digitalWrite(b,LOW);
+            digitalWrite(c,HIGH);
+            digitalWrite(d,HIGH);
+            digitalWrite(e,LOW);
+            digitalWrite(f,HIGH);
+            digitalWrite(g,HIGH);
+            break;
+        case 6:
+            digitalWrite(a,HIGH);
+            digitalWrite(b,LOW);
+            digitalWrite(c,HIGH);
+            digitalWrite(d,HIGH);
+            digitalWrite(e,HIGH);
+            digitalWrite(f,HIGH);
+            digitalWrite(g,HIGH);
+            break;
+        case 7:
+            digitalWrite(a,HIGH);
+            digitalWrite(b,HIGH);
+            digitalWrite(c,HIGH);
+            digitalWrite(d,LOW);
+            digitalWrite(e,LOW);
+            digitalWrite(f,LOW);
+            digitalWrite(g,LOW);
+            break;
+        case 8:
+            digitalWrite(a,HIGH);
+            digitalWrite(b,HIGH);
+            digitalWrite(c,HIGH);
+            digitalWrite(d,HIGH);
+            digitalWrite(e,HIGH);
+            digitalWrite(f,HIGH);
+            digitalWrite(g,HIGH);
+            break;
+        case 9:
+            digitalWrite(a,HIGH);
+            digitalWrite(b,HIGH);
+            digitalWrite(c,HIGH);
+            digitalWrite(d,HIGH);
+            digitalWrite(e,LOW);
+            digitalWrite(f,HIGH);
+            digitalWrite(g,HIGH);
+            break;
+      }
+  }
 ~~~
 
 ## :robot: Link al proyecto
