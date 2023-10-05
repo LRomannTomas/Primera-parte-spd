@@ -9,7 +9,7 @@
 
 
 ## Descripción
-En este parrafo deberan describir que funcion cumple su proyecto. Que solucion esta ofreciendo.
+Nuestro proyecto consiste en crear un contador desde el 0-99 utilizando 2 displays de 7 segmentos y la tecnica de Multiplexacion. Contiene 3 pulsadores con funcionalidades distintas; Uno de ellos Suma el contador, Otro resta y el ultimo resetea el contador a 0. 
 
 ## Función principal
 Esta funcion se encarga de encender y apagar los leds.
