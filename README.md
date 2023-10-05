@@ -115,20 +115,12 @@ void mostrar_digito(int digit){
 ~~~
 
 ## :robot: Link al proyecto
-- [proyecto](https://www.tinkercad.com/things/aOYiibnDjWu)
-## :tv: Link al video del proceso
-- [video](https://www.youtube.com/watch?v=VyGjE8kx-O0)
-
+- [proyecto](https://www.tinkercad.com/things/eAtVA3PDnj8)
 ---
 ### Fuentes
-- [Consejos para documentar](https://www.sohamkamani.com/how-to-write-good-documentation/#architecture-documentation).
 
-- [Lenguaje Markdown](https://markdown.es/sintaxis-markdown/#linkauto).
-
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-- [Tutorial](https://www.youtube.com/watch?v=oxaH9CFpeEE).
-
+- [Tutorial](https://www.youtube.com/watch?v=_Ry7mtURGDE&list=PL7LaR6_A2-E11BQXtypHMgWrSR-XOCeyD&index=4).
+- [Insertar Imagen](https://www.youtube.com/watch?v=lWeEF5fmdko).
 - [Emojis](https://gist.github.com/rxaviers/7360908).
 
 ---
