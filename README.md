@@ -9,7 +9,8 @@
 
 
 ## Descripción
-Nuestro proyecto consiste en crear un contador desde el 0-99 utilizando 2 displays de 7 segmentos y la tecnica de Multiplexacion. Contiene 3 pulsadores con funcionalidades distintas; Uno de ellos Suma el contador, Otro resta y el ultimo resetea el contador a 0. 
+Nuestro proyecto consiste en crear un contador desde el 0-99 utilizando 2 displays de 7 segmentos y la tecnica de Multiplexacion. Contiene 3 pulsadores con funcionalidades distintas; uno de ellos Suma el contador, otro resta y el ultimo resetea el contador a 0.
+Ademas, incluye mecanismos para evitar rebotes en los pulsadores!
 
 ## Función principal
 Esta funcion se encarga de encender y apagar los leds que se necesiten para formar el numero que corresponde con el contador en cada caso.
