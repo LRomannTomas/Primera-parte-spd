@@ -1,4 +1,4 @@
-## Integrantes 
+## :construction_worker: Integrantes 
 - Roman Tomas
 - Novach Jeronimo
 - Sotelo Lucas
@@ -8,11 +8,11 @@
 ![Tinkercad](circuito_spd.png)
 
 
-## Descripción
+## :page_with_curl: Descripción
 La primera parte de nuestro proyecto consiste en crear un contador desde el 0-99 utilizando 2 displays de 7 segmentos aplicando la tecnica de Multiplexacion. Contiene 3 pulsadores con funcionalidades distintas; uno de ellos suma el contador, otro resta y el ultimo resetea el contador a 0.
 Ademas, incluye mecanismos para evitar rebotes en los pulsadores!
 
-## Función principal
+## :star: Función principal
 Esta funcion se encarga de encender y apagar los leds que se necesiten para formar el numero que corresponde con el contador en cada caso.
 
 a, b, c, d, e, f, g son #define que utilizamos para agregar los leds de los displays, asociandolo a pines de la placa arduino.
@@ -114,27 +114,28 @@ void mostrar_digito(int digit){
       }
   }
 ~~~
-
+---
 
 ## 2° Parte - Proyecto: Modificación con Interruptor Deslizante y Números Primos.
 ![Tinkercad](circuito_spd_2da.png)
 
-## Descripción
+
+## :page_with_curl: Descripción
 En la segunda parte de nuestro proyecto realizamos las siguientes modificaciones:<br>
 
-ELIMINADOS:
+:triangular_flag_on_post: ELIMINADOS:
 - Boton reset --> Se encargaba de setear el contador a 0 con el fin de reiniciar el programa.
 
-AGREGADOS:
+:heavy_check_mark: AGREGADOS:
 - Interruptor deslizante o Switch --> Determina los valores que se mostraran en nuestros displays. Lado izquierdo: El programa seguira funcionando de la misma forma que la parte 1. Lado derecho: se mostraran los numeros primos existentes dentro del rango 0-99 en funcion de los botones que se utilicen en cada momento.
 - Sensor de temperatura [TMP36] --> Interpreta la temperatura en una escala que va desde -50°C hasta 450°C. Determina si el programa muestra u oculta el valor a mostrar en los visualizadores segun la temperatura registrada. Si la temperatura es mayor a 74°C o menor a 1°C los displays ocultan el valor a mostrar, caso contrario lo muestran.
 
-## :robot: Link al proyecto
+## :pushpin: Links al proyecto
 - [1° Parte Proyecto](https://www.tinkercad.com/things/eAtVA3PDnj8)
 - [2° Parte Proyecto](https://www.tinkercad.com/things/gFwOfAjB9RF)
 ---
 
-### Fuentes
+### :point_down: Fuentes
 
 - [Tutorial](https://www.youtube.com/watch?v=_Ry7mtURGDE&list=PL7LaR6_A2-E11BQXtypHMgWrSR-XOCeyD&index=4).
 - [Insertar Imagen](https://www.youtube.com/watch?v=lWeEF5fmdko).
