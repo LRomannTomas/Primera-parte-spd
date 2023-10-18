@@ -4,12 +4,12 @@
 - Sotelo Lucas
 
 
-## Proyecto: Contador de 0 a 99 con Display 7 Segmentos y Multiplexación.
+## 1° Parte - Proyecto: Contador de 0 a 99 con Display 7 Segmentos y Multiplexación.
 ![Tinkercad](circuito_spd.png)
 
 
 ## Descripción
-Nuestro proyecto consiste en crear un contador desde el 0-99 utilizando 2 displays de 7 segmentos y la tecnica de Multiplexacion. Contiene 3 pulsadores con funcionalidades distintas; uno de ellos Suma el contador, otro resta y el ultimo resetea el contador a 0.
+La primera parte de nuestro proyecto consiste en crear un contador desde el 0-99 utilizando 2 displays de 7 segmentos aplicando la tecnica de Multiplexacion. Contiene 3 pulsadores con funcionalidades distintas; uno de ellos suma el contador, otro resta y el ultimo resetea el contador a 0.
 Ademas, incluye mecanismos para evitar rebotes en los pulsadores!
 
 ## Función principal
@@ -114,6 +114,8 @@ void mostrar_digito(int digit){
       }
   }
 ~~~
+## 2° Parte - Proyecto: Modificación con Interruptor Deslizante y Números Primos.
+
 
 ## :robot: Link al proyecto
 - [proyecto](https://www.tinkercad.com/things/eAtVA3PDnj8)
