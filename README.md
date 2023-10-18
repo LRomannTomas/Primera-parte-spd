@@ -120,12 +120,12 @@ void mostrar_digito(int digit){
 ![Tinkercad](circuito_spd_2da.png)
 
 ## Descripción
-En la segunda parte de nuestro proyecto realizamos varias de las siguientes modificaciones:
-\n
-\n
+En la segunda parte de nuestro proyecto realizamos varias de las siguientes modificaciones:<br>
+<br>
+<br>
 ELIMINADOS:
 - Boton reset --> (se encargaba de setear el contador a 0 con el fin de reiniciar el programa)
-\n
+
 AGREGADOS:
 - Interruptor deslizante o Switch.
 
