@@ -114,6 +114,8 @@ void mostrar_digito(int digit){
       }
   }
 ~~~
+
+
 ## 2° Parte - Proyecto: Modificación con Interruptor Deslizante y Números Primos.
 ![Tinkercad](circuito_spd_2da.png)
 
