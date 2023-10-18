@@ -122,6 +122,7 @@ void mostrar_digito(int digit){
 ## Descripción
 En la segunda parte de nuestro proyecto realizamos varias de las siguientes modificaciones:<br>
 <br>
+<span style="color: red;">ELIMINADOS</span>
 ELIMINADOS:
 - Boton reset --> (se encargaba de setear el contador a 0 con el fin de reiniciar el programa)
 
