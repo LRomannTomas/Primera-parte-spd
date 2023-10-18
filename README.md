@@ -119,6 +119,18 @@ void mostrar_digito(int digit){
 ## 2° Parte - Proyecto: Modificación con Interruptor Deslizante y Números Primos.
 ![Tinkercad](circuito_spd_2da.png)
 
+## Descripción
+En la segunda parte de nuestro proyecto realizamos varias de las siguientes modificaciones:
+\n
+\n
+ELIMINADOS:
+- Boton reset --> (se encargaba de setear el contador a 0 con el fin de reiniciar el programa)
+\n
+AGREGADOS:
+- Interruptor deslizante o Switch.
+
+
+
 
 ## :robot: Link al proyecto
 - [proyecto](https://www.tinkercad.com/things/eAtVA3PDnj8)
