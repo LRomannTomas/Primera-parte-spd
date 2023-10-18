@@ -120,20 +120,20 @@ void mostrar_digito(int digit){
 ![Tinkercad](circuito_spd_2da.png)
 
 ## Descripción
-En la segunda parte de nuestro proyecto realizamos varias de las siguientes modificaciones:<br>
-<br>
+En la segunda parte de nuestro proyecto realizamos las siguientes modificaciones:<br>
+
 ELIMINADOS:
 - Boton reset --> Se encargaba de setear el contador a 0 con el fin de reiniciar el programa.
 
 AGREGADOS:
-- Interruptor deslizante o Switch --> Determina los valores que se mostraran en nuestros displays. -Lado izquierdo: El programa seguira funcionando de la misma forma que la parte 1. -Lado derecho: se mostraran los numeros primos existentes dentro del rango 0-99 en funcion de los botones que se utilicen en cada momento
-
-
-
+- Interruptor deslizante o Switch --> Determina los valores que se mostraran en nuestros displays. Lado izquierdo: El programa seguira funcionando de la misma forma que la parte 1. Lado derecho: se mostraran los numeros primos existentes dentro del rango 0-99 en funcion de los botones que se utilicen en cada momento.
+- Sensor de temperatura [TMP36] --> Interpreta la temperatura en una escala que va desde -50°C hasta 450°C. Determina si el programa muestra u oculta el valor a mostrar en los visualizadores segun la temperatura registrada. Si la temperatura es mayor a 74°C o menor a 1°C los displays ocultan el valor a mostrar, caso contrario lo muestran.
 
 ## :robot: Link al proyecto
-- [proyecto](https://www.tinkercad.com/things/eAtVA3PDnj8)
+- [1° Parte Proyecto](https://www.tinkercad.com/things/eAtVA3PDnj8)
+- [2° Parte Proyecto](https://www.tinkercad.com/things/gFwOfAjB9RF)
 ---
+
 ### Fuentes
 
 - [Tutorial](https://www.youtube.com/watch?v=_Ry7mtURGDE&list=PL7LaR6_A2-E11BQXtypHMgWrSR-XOCeyD&index=4).
