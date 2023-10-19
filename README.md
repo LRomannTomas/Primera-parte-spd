@@ -132,14 +132,22 @@ En la segunda parte de nuestro proyecto realizamos las siguientes modificaciones
 - Interruptor deslizante o Switch --> Determina los valores que se mostraran en nuestros displays. Lado izquierdo: El programa seguira funcionando de la misma forma que la parte 1. Lado derecho: se mostraran los numeros primos existentes dentro del rango 0-99 en funcion de los botones que se utilicen en cada momento.
 - Sensor de temperatura [TMP36] --> Interpreta la temperatura en una escala que va desde -50°C hasta 450°C. Determina si el programa muestra u oculta el valor a mostrar en los visualizadores segun la temperatura registrada. Si la temperatura es mayor a 74°C o menor a 1°C los displays ocultan el valor a mostrar, caso contrario lo muestran.
 
+## 3° Parte - Proyecto: Implementacion de fotodiodo.
+![Tinkercad](circuito_spd_2da.png)
+## :page_with_curl: Descripción
+Un fotodiodo es un dispositivo que convierte la luz incidente en una señal eléctrica, debido a su construccion, se comportan como celulas-fotovoltaicas, nuestra intencion al agregar este componente fue que nuestro programa prenda los visualizadores unicamente si recibe algun tipo de luz (ya sea visible o infrarroja), es decir, utilizamos lo que  genero (una pequeña corriente) para ello.
+
+
 ## :pushpin: Links al proyecto
 - [1° Parte Proyecto](https://www.tinkercad.com/things/eAtVA3PDnj8)
 - [2° Parte Proyecto](https://www.tinkercad.com/things/gFwOfAjB9RF)
+- [3° Parte Proyecto](https://www.tinkercad.com/things/2bMBr4uYVbG)
 ---
 
 ### :point_down: Fuentes
 
 - [Tutorial](https://www.youtube.com/watch?v=_Ry7mtURGDE&list=PL7LaR6_A2-E11BQXtypHMgWrSR-XOCeyD&index=4).
+- [Como utilizar Fotodiodo](https://www.youtube.com/watch?v=r9B_tdsA1t8).
 - [Insertar Imagen](https://www.youtube.com/watch?v=lWeEF5fmdko).
 - [Emojis](https://gist.github.com/rxaviers/7360908).
 
