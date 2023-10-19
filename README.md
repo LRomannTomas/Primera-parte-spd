@@ -10,10 +10,11 @@
 
 ## :page_with_curl: Descripción
 La primera parte de nuestro proyecto consiste en crear un contador desde el 0-99 utilizando 2 displays de 7 segmentos aplicando la tecnica de Multiplexacion'. Contiene 3 pulsadores con funcionalidades distintas; uno de ellos suma el contador, otro resta y el ultimo resetea el contador a 0.
-Ademas, incluye mecanismos para evitar rebotes en los pulsadores!
+Ademas, incluye mecanismos para evitar rebotes en los pulsadores!<br>
+La tecnica de multiplexación la utilizamos para combinar múltiples señales de datos en un único canal de transmisión
 
 ## :star: Función principal
-Esta funcion se encarga de encender y apagar los leds que se necesiten para formar el numero que corresponde con el contador en cada caso.
+Esta funcion se encarga de encender y apagar los leds que se necesiten para formar el numero que corresponde con el contador en cada caso. Esto permite transmitir más información de manera eficiente a través de un medio de transmisión limitado. Hemos aplicado la multiplexacion por division de tiempo (TDM) alternando la activación de cada display de manera rápida, lo que crea la ilusión de que ambos están encendidos al mismo tiempo, pero en realidad, solo uno se enciende en un momento dado. Esto nos permitio mostrar información en ambos displays con un número limitado de pines de salida del Arduino.
 
 a, b, c, d, e, f, g son #define que utilizamos para agregar los leds de los displays, asociandolo a pines de la placa arduino.
 
