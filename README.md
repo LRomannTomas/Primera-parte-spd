@@ -133,7 +133,7 @@ En la segunda parte de nuestro proyecto realizamos las siguientes modificaciones
 - Sensor de temperatura [TMP36] --> Interpreta la temperatura en una escala que va desde -50°C hasta 450°C. Determina si el programa muestra u oculta el valor a mostrar en los visualizadores segun la temperatura registrada. Si la temperatura es mayor a 74°C o menor a 1°C los displays ocultan el valor a mostrar, caso contrario lo muestran.
 
 ## 3° Parte - Proyecto: Implementacion de fotodiodo.
-![Tinkercad](circuito_spd_2da.png)
+![Tinkercad](tercera_parte_spd.png)
 ## :page_with_curl: Descripción
 Un fotodiodo es un dispositivo que convierte la luz incidente en una señal eléctrica, debido a su construccion, se comportan como celulas-fotovoltaicas, nuestra intencion al agregar este componente fue que nuestro programa prenda los visualizadores unicamente si recibe algun tipo de luz (ya sea visible o infrarroja), es decir, utilizamos lo que  genero (una pequeña corriente) para ello.
 
