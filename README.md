@@ -135,7 +135,7 @@ En la segunda parte de nuestro proyecto realizamos las siguientes modificaciones
 ## 3° Parte - Proyecto: Implementacion de fotodiodo.
 ![Tinkercad](tercera_parte_spd.png)
 ## :page_with_curl: Descripción
-Un fotodiodo es un dispositivo que convierte la luz incidente en una señal eléctrica, debido a su construccion, se comportan como celulas-fotovoltaicas, nuestra intencion al agregar este componente fue que nuestro programa prenda los visualizadores unicamente si recibe algun tipo de luz (ya sea visible o infrarroja), es decir, utilizamos lo que  genero (una pequeña corriente) para ello.
+Un fotodiodo es un dispositivo que convierte la luz incidente en una señal eléctrica, debido a su construccion, se comportan como celulas-fotovoltaicas, nuestra intencion al agregar este componente fue que nuestro programa prenda los visualizadores unicamente si recibe algun tipo de luz (ya sea visible o infrarroja), es decir, utilizamos lo que genero (una pequeña corriente que supere cierto valor especifico) para ello.
 
 
 ## :pushpin: Links al proyecto
